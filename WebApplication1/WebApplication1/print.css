@@ -1,0 +1,27 @@
+body {
+    color : #000000;
+    background : #ffffff;
+    background-image: none;
+    font-family : "Times New Roman", Times, serif;
+    font-size : 12pt;
+    padding-left:20px;
+  } 
+  
+  p, .quotes td p {font-family : "Times New Roman", Times, serif; font-size : 12pt !important; line-height:15pt !important;}
+  
+  a {
+    text-decoration : underline;
+    color : #0000ff;
+  } 
+  
+  #ie6, #nostandards, #skiptocontent, #hwrapper, #mwrapper, #fwrapper, #pagenav, #dropdownnav, #navigation {display:none !important;}
+  #content, #contentum {width:96%;}
+  
+  .laptop, img.main, .tab-container ul.navigation {display:none;}
+  
+  .ui-accordion-content, .tab-content {display:block !important;}
+  div.hide, div.active {display:block !important;}
+  
+  
+  .academics #content {width:96%;}
+  .academics #sidebar, .academics p.stat {display:none;}

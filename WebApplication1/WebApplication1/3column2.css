@@ -1,0 +1,43 @@
+@import url(master2.css);
+
+/* =========== 3 COLUMN LAYOUT CSS =========== */
+
+#breadcrumbs {display:none;}
+#sidebar {float:right; width:192px;}
+.newsletter {padding:5px 0; margin:0 0 8px 0 !important; background:#939393; color:#000 !important; text-align:center;}
+
+
+/* --- tabs --- */
+.container, #container {float:left; width:550px;}
+
+ul.tabs {margin:0 !important; padding:0 !important; width:550px; height:29px; background-color:#006747;}
+ul.tabs li {float:left; padding:0; margin:0; list-style-type:none;}
+ul.tabs a {float:left; font-size:10px; line-height:10px; display:block; padding:5px 30px 5px 10px; text-decoration:none; border-bottom:0px; height:19px; background:url("../images/tabbg.png") #006747 repeat-y; color:#fff; text-transform:uppercase; font-weight:bold; position:relative; outline:0;}
+ul.tabs a:hover {background-color:#000; color:#fff; text-decoration:none !important;}
+ul.tabs li:nth-child(1) a {background-image:none; }
+
+ul.tabs li:nth-last-child(1) a.active {background:url("../images/tabLastbg.png") #DDDDDD repeat-y; background-position:right 0;}
+ul.tabs a.active {background-position:-4px 0; background-color:#DDDDDD; border-bottom:1px solid #DDDDDD; color:#006747; cursor:default;}
+
+.panes {border:6px solid #DDDDDD;}
+.pane {display:none; padding:10px; overflow:hidden; }
+
+/* --- modules --- */
+.news ul, .calendar dl {width:170px; background-color:#fff; padding:5px 5px 2px 5px !important; margin-bottom:5px;}
+.news ul {padding-bottom:5px !important; margin-bottom:10px !important;}
+.calendar dt {float:left; clear:left; width:40px; margin:4px 0 0 0 !important; padding:0 !important; font-size:9px !important; font-weight:bold; color:#006747; text-align:right;}
+.calendar dd {float:left; width:120px; margin:3px 0 3px -35px !important; padding:0 0 5px 45px !important; font-size:11px; border-bottom:1px solid #DDDDDD; line-height:14px;}
+.news li {width:160px; margin-left:0 !important; font-size:9px; color:#595959; font-weight:bold; line-height:14px;  border-bottom:1px solid #DDDDDD;}
+.news li a {font-size:11px !important; color:#006747; font-weight:normal;}
+
+/*--- right boxes --*/
+#boxes {position:relative;float:right; margin:0 0 0 5px; width:225px;}
+.picbox {padding:10px; margin:0; font-size:0.85em; line-height:1.15em;}
+#boxes.picbox p {padding: 0 !important;}
+#boxes.picbox p img {padding-bottom:0.5em;}
+.quotebox {width:205px !important; padding:10px; margin:5px 0 10px 12px !important; font-size:0.85em; line-height:1.15em; background-color:#ece9d8; border:1px solid #c9c6b8;}
+.quotebox li {padding-bottom:6px;}
+
+
+/* IE7 Hack */
+*:first-child+html #slides div {margin-top:4px;}

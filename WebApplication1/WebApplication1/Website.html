@@ -58,7 +58,7 @@
                 <li class="heading">Select the Division </li>
 
 
-                <a href="graduate.html" class="button">Undergraduate Projects </a>
+                <a href="undergraduate.html" class="button">Undergraduate Projects </a>
                 <a href="graduate.html" class="button">Graduate Projects</a>
 
 
@@ -94,15 +94,15 @@
 
         <form class="register-form" style="float:left; margin-left:25em">
             <h2>Student Login</h2>
-            <input type="password" placeholder="AccessKey" />
-            <button class="form-button"  onclick="location.href='undergraduate.html';">LOGIN</button>
+            <input  id ="text1" type="password" placeholder="AccessKey" />
+            <button  class="form-button"  onclick="myfunction()">LOGIN</button>
             <p class="message">Already registered? <a href="#">Create</a></p>
             
         </form>
 
         <form class="register-form" style="float:left">
             <h2>Admin Login</h2>
-            <input class= type="text" placeholder="name" />
+            <input type="text" placeholder="name" />
             <input type="password" placeholder="password" />
             <input type="text" placeholder="email address" />
             <button class="form-button" >LOGIN</button>
@@ -152,6 +152,16 @@
                 </ul>
             </div><div id="col-right"><h3>Share This Page</h3><ul class="share"><li class="share-facebook"><a href="https://www.facebook.com/share.php?u=https://www.nwmissouri.edu/careerserv/index.htm" rel="nofollow" title="Share this page on Facebook">Share this page on Facebook</a></li><li class="share-twitter"><a href="https://twitter.com/share?text=From+the+%23Northwest+website&amp;via=NWMOState&amp;url=https://www.nwmissouri.edu/careerserv/index.htm" rel="nofollow" title="Share this page on Twitter">Share this page on Twitter</a></li><li class="share-email"><a href="mailto:?body=From%20the%20Northwest%20website%3A%0Ahttps://www.nwmissouri.edu/careerserv/index.htm&amp;subject=Northwest Missouri State University" rel="nofollow" title="Share this page by email">Share this page by email</a></li></ul></div><br class="clear" />
         </div>
+    <script>
+        function myfunction() {
+            var x = document.getElementById("text1").value;
+            if (x === "123") {
+
+            }
+
+
+        }
+    </script>
 
 </body>
 </html>
